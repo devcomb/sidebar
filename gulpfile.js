@@ -16,8 +16,8 @@ gulp.task('publish', ['test'], function(){
 });
 
 gulp.task('run', function(){
-    var server = gls.new('app/server.js');
-    gulp.watch('app/**/*', function() {
+    var server = gls.new('server.js');
+    gulp.watch('**/*', function() {
         gulp.start('test');
         gulp.start('hint');
         server.start.bind(server)();
@@ -33,7 +33,7 @@ gulp.task('test', function() {
 });
 
 gulp.task('hint', function(){
-    return gulp.src('app/*.js')
+    return gulp.src('*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(jshint.reporter('fail'));

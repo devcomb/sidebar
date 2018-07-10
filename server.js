@@ -25,7 +25,7 @@ router.get('/json', function(req, res){
 });
 app.use("/", router);
 
-app.use('/images', express.static('app/images'));
+app.use('/images', express.static('/images'));
 
 var server = app.listen(0, function(){
     console.log("started server on port %s", server.address().port);
