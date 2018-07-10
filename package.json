@@ -1,0 +1,58 @@
+{
+  "_from": "express_app",
+  "_id": "express_app@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-NyESAX0vhg4/Wfo/QznCMLNFyHs=",
+  "_location": "/express_app",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "express_app",
+    "name": "express_app",
+    "escapedName": "express_app",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/express_app/-/express_app-1.0.3.tgz",
+  "_shasum": "372112017d2f860e3f59fa3f4339c230b345c87b",
+  "_spec": "express_app",
+  "_where": "/opt/app-root/src",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.31",
+    "gulp-npm-publish": "0.0.2",
+    "run-sequence": "^2.2.0"
+  },
+  "deprecated": false,
+  "description": "Webapp using Express.js Grunt and Gulp",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^4.3.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^4.0.1"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "express_app",
+  "repository": {
+    "type": "git",
+    "url": "https://ada.csse.rose-hulman.edu/gilmordw/DevopsTeamNoPref.git"
+  },
+  "scripts": {
+    "start": "node ./app/server",
+    "test": "mocha"
+  },
+  "version": "1.0.3"
+}
