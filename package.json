@@ -51,7 +51,7 @@
     "url": "https://ada.csse.rose-hulman.edu/gilmordw/DevopsTeamNoPref.git"
   },
   "scripts": {
-    "start": "node ./app/server",
+    "start": "node ./server",
     "test": "npm install && ./node_modules/mocha/bin/mocha"
   },
   "version": "1.0.3"
