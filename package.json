@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "node ./app/server",
-    "test": "./node_module/mocha/bin/mocha"
+    "test": "/opt/app-root/src/node_module/mocha/bin/mocha"
   },
   "version": "1.0.3"
 }
