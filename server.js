@@ -27,6 +27,8 @@ app.use("/", router);
 
 app.use('/images', express.static('/images'));
 
+app.set('port', process.env.PORT || 8080);
+
 var server = app.listen(0, function(){
     console.log("started server on port %s", server.address().port);
 });
